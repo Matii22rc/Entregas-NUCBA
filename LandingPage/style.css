@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+header{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(./Fondo-header.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.Logo{
+    display: flex;
+}
+
+li{
+    display: flex;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    display: flex;
+    width: 30vw;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 25px;
+}
+
+.Lista{
+    width: 50vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
